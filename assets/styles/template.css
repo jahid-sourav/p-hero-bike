@@ -17,6 +17,9 @@ body{
     width: 58px;
     background-color: #E76F51;
 }
+.padding-bottom-0{
+    padding-bottom: 0 !important; 
+}
 /* Shared Classes Ends Here */
 
 /* Header Styles Starts Here */
