@@ -24,3 +24,9 @@ body{
     color: #E76F51;
 }
 /* Header Styles Ends Here */
+
+/* Latest Blogs Styles Starts Here */
+.blog-card-box-shadow{
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+}
+/* Latest Blogs Styles Ends Here */
