@@ -23,6 +23,7 @@ body{
 /* Shared Classes Ends Here */
 
 /* Header Styles Starts Here */
+.menu li:hover a,
 .nav-items li:hover a{
     color: #E76F51;
 }

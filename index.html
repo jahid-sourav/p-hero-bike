@@ -13,10 +13,10 @@
 </head>
 <body>
     <!-- Header Starts Here -->
-    <header class="pt-10 pb-24 bg-primaryColor">
+    <header class="px-5 pt-10 pb-24 bg-primaryColor">
         <div class="container mx-auto">
             <!-- Navbar Starts Here -->
-                <nav class="flex items-center justify-between">
+                <nav class="hidden md:hidden lg:flex lg:items-center lg:justify-between xl:flex xl:items-center xl:justify-between 2xl:flex 2xl:items-center 2xl:justify-between">
                     <a href="index.html" class="inline-block">
                         <img src="assets/images/logo.svg" alt="Logo" class="max-w-full h-auto">
                     </a>
@@ -48,6 +48,55 @@
                         </a>
                     </div>
                 </nav>
+                <!-- Mobile Navbar Starts Here -->
+                <div class="flex justify-between items-center md:flex md:justify-between md:items-center lg:hidden xl:hidden 2xl:hidden">
+                    <div>
+                        <a href="index.html" class="inline-block">
+                            <img src="assets/images/logo.svg" alt="Logo" class="max-w-full h-auto">
+                        </a>
+                    </div>
+                    <div>
+                        <div class="drawer">
+                            <input id="hamburger" type="checkbox" class="drawer-toggle">
+                            <div class="drawer-content">
+                              <label for="hamburger">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="#FFF"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                              </label>
+                            </div> 
+                            <div class="drawer-side">
+                              <label for="hamburger" aria-label="close sidebar" class="drawer-overlay"></label>
+                              <ul class="menu p-4 w-10/12 min-h-full bg-gray-200">
+                                <li class="mb-5">
+                                    <a href="index.html" class="text-base text-secondaryColor font-medium ease-in-out duration-300">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="mb-5">
+                                    <a href="index.html" class="text-base text-primaryColor font-medium ease-in-out duration-300">
+                                        Shop
+                                    </a>
+                                </li>
+                                <li class="mb-5">
+                                    <a href="index.html" class="text-base text-primaryColor font-medium ease-in-out duration-300">
+                                        News
+                                    </a>
+                                </li>
+                                <li class="mb-5">
+                                    <a href="index.html" class="text-base text-primaryColor font-medium ease-in-out duration-300">
+                                        Contact
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="flex justify-center py-4 text-white rounded bg-secondaryColor text-base font-medium border border-secondaryColor ease-in-out duration-300 hover:bg-primaryColor hover:text-secondaryColor">
+                                        Login
+                                    </a>
+                                </li>
+                              </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile Navbar Ends Here -->
             <!-- Navbar Ends Here -->
 
             <!-- Hero Area Starts Here -->
@@ -74,7 +123,7 @@
         </div>
     </header>
     <!-- Header Ends Here -->
-    <main>
+    <main class="px-5">
         <!-- Featured Bike Starts Here -->
         <section class="py-16">
             <div class="container mx-auto">
@@ -304,7 +353,7 @@
         <!-- FAQ Area Ends Here -->
     </main>
     <!-- Footer Starts Here -->
-    <footer class="py-12 bg-[#0B0D17]">
+    <footer class="px-5 py-12 bg-[#0B0D17]">
         <div class="container mx-auto">
             <div class="flex justify-between">
                 <div>
