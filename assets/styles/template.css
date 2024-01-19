@@ -4,6 +4,19 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.line{
+    position: relative;
+}
+.line::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    width: 58px;
+    background-color: #E76F51;
+}
 /* Shared Classes Ends Here */
 
 /* Header Styles Starts Here */
