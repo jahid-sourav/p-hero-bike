@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/styles/template.css">
+    <link rel="stylesheet" href="assets/styles/responsive.css">
+</head>
+<body>
+    <header class="pt-10 pb-22.5 bg-primaryColor">
+        <div class="container mx-auto">
+            <!-- Navbar Starts Here -->
+                <nav class="flex items-center justify-between">
+                    <a href="index.html" class="inline-block">
+                        <img src="assets/images/logo.svg" alt="Logo" class="max-w-full h-auto">
+                    </a>
+                    <div class="flex items-center">
+                        <ul class="flex items-center me-16 nav-items">
+                            <li class="me-9">
+                                <a href="index.html" class="text-base text-secondaryColor font-medium ease-in-out duration-300">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="me-9">
+                                <a href="index.html" class="text-base text-white font-medium ease-in-out duration-300">
+                                    Shop
+                                </a>
+                            </li>
+                            <li class="me-9">
+                                <a href="index.html" class="text-base text-white font-medium ease-in-out duration-300">
+                                    News
+                                </a>
+                            </li>
+                            <li class="me-9">
+                                <a href="index.html" class="text-base text-white font-medium ease-in-out duration-300">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="#" class="inline-block py-2.5 px-6 text-white rounded bg-secondaryColor font-medium border border-secondaryColor ease-in-out duration-300 hover:bg-primaryColor">
+                            Login
+                        </a>
+                    </div>
+                </nav>
+            <!-- Navbar Ends Here -->
+
+            <!-- Hero Area Starts Here -->
+            <div class="pt-20 grid grid-cols-2 gap-16 items-center">
+                <div>
+                    <p class="font-light text-white text-sm mb-1">
+                        Computer-controlled digital transistorized with electronic advance
+                    </p>
+                    <h2 class="text-white font-semibold text-5xl mb-4.5">
+                        Honda CBR 300R
+                    </h2>
+                    <p class="text-silverColor text-base font-light max-w-md mb-5">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud.
+                    </p>
+                    <a href="#" class="inline-block py-2.5 px-6 text-white rounded bg-secondaryColor font-medium border border-secondaryColor ease-in-out duration-300 hover:bg-primaryColor">
+                        Purchase
+                    </a>
+                </div>
+                <div>
+                    <img src="assets/images/hero/bike.png" alt="Bike Image" class="max-w-full h-auto">
+                </div>
+            </div>
+            <!-- Hero Area Ends Here -->
+        </div>
+    </header>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primaryColor: '#264653',
+                        secondaryColor: '#E76F51',
+                        tertiaryColor: '#0B0D17',
+                        grayColor: '#18191F',
+                        greyishColor: '#6C6C6C',
+                        silverColor: '#E0E0E0',
+                        darkBlueColor: '#0A0826',
+                        skyBlueColor: '#23A6F0',
+                        purpleColor: '#252B42',
+                        purpleColor: '#0D0925',
+                    },
+                    padding: {
+                        22.5: '22.5rem',
+                    },
+                    margin: {
+                        4.5: '1.125rem',
+                    },
+                }
+            }
+        }
+    </script>
+</body>
+</html>
